@@ -1,0 +1,9 @@
+G:\ETEC\DES SOFTWARE\Projeto_Final\Projeto_Final\bin\Debug\Projeto_Final.exe
+G:\ETEC\DES SOFTWARE\Projeto_Final\Projeto_Final\bin\Debug\Projeto_Final.pdb
+G:\ETEC\DES SOFTWARE\Projeto_Final\Projeto_Final\obj\Debug\Projeto_Final.csprojResolveAssemblyReference.cache
+G:\ETEC\DES SOFTWARE\Projeto_Final\Projeto_Final\obj\Debug\Projeto_Final.Tela_Login.resources
+G:\ETEC\DES SOFTWARE\Projeto_Final\Projeto_Final\obj\Debug\Projeto_Final.Properties.Resources.resources
+G:\ETEC\DES SOFTWARE\Projeto_Final\Projeto_Final\obj\Debug\Projeto_Final.csproj.GenerateResource.Cache
+G:\ETEC\DES SOFTWARE\Projeto_Final\Projeto_Final\obj\Debug\Projeto_Final.exe
+G:\ETEC\DES SOFTWARE\Projeto_Final\Projeto_Final\obj\Debug\Projeto_Final.pdb
+G:\ETEC\DES SOFTWARE\Projeto_Final\Projeto_Final\obj\Debug\Projeto_Final.Tela_Principal.resources
