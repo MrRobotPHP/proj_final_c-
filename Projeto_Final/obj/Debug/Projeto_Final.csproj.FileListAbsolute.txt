@@ -7,3 +7,5 @@ G:\ETEC\DES SOFTWARE\Projeto_Final\Projeto_Final\obj\Debug\Projeto_Final.csproj.
 G:\ETEC\DES SOFTWARE\Projeto_Final\Projeto_Final\obj\Debug\Projeto_Final.exe
 G:\ETEC\DES SOFTWARE\Projeto_Final\Projeto_Final\obj\Debug\Projeto_Final.pdb
 G:\ETEC\DES SOFTWARE\Projeto_Final\Projeto_Final\obj\Debug\Projeto_Final.Tela_Principal.resources
+D:\Documentos\GitHubCSharp\Projeto_Final\obj\Debug\Projeto_Final.exe
+D:\Documentos\GitHubCSharp\Projeto_Final\obj\Debug\Projeto_Final.pdb
