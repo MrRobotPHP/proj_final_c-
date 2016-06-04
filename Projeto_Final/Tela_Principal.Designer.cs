@@ -30,26 +30,24 @@
         {
             this.tabAdm = new System.Windows.Forms.TabControl();
             this.tabClientes = new System.Windows.Forms.TabPage();
-            this.txtCpfCli = new System.Windows.Forms.MaskedTextBox();
-            this.txtTelCli = new System.Windows.Forms.MaskedTextBox();
-            this.cbxSexoCli = new System.Windows.Forms.ComboBox();
-            this.btnSalvarFotoCli = new System.Windows.Forms.Button();
-            this.btnAddFotoCli = new System.Windows.Forms.Button();
-            this.imgCliente = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtEmailCli = new System.Windows.Forms.TextBox();
             this.txtNomeCli = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.txtCpfCli = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.txtSexoCli = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.txtTelCli = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtCodCli = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnVoltarCli = new System.Windows.Forms.Button();
             this.btnCadCliente = new System.Windows.Forms.Button();
-            this.btnExcluirCliente = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.btnEditarCliente = new System.Windows.Forms.Button();
-            this.grdClientes = new System.Windows.Forms.DataGridView();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.colCodCli = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColNomeCli = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colTelCli = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -57,19 +55,17 @@
             this.colEmailCli = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colCPFCli = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabProdutos = new System.Windows.Forms.TabPage();
-            this.btnSalvarFotoPro = new System.Windows.Forms.Button();
-            this.btnAddFotoPro = new System.Windows.Forms.Button();
-            this.imgProduto = new System.Windows.Forms.PictureBox();
-            this.txtPrecoPro = new System.Windows.Forms.TextBox();
-            this.txtDescPro = new System.Windows.Forms.TextBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.txtEstPro = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.txtCodPro = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.btnVoltarProd = new System.Windows.Forms.Button();
-            this.grdProdutos = new System.Windows.Forms.DataGridView();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.colCodPro = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colDescricaoPro = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colPrecoPro = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -91,7 +87,7 @@
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.btnVoltarVen = new System.Windows.Forms.Button();
-            this.grdVendas = new System.Windows.Forms.DataGridView();
+            this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.colCodVenda = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colProdutoVenda = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colClienteVenda = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -103,13 +99,13 @@
             this.btnCadVenda = new System.Windows.Forms.Button();
             this.tabAdm.SuspendLayout();
             this.tabClientes.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.imgCliente)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdClientes)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tabProdutos.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.imgProduto)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdProdutos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.tabVendas.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.grdVendas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.SuspendLayout();
             // 
             // tabAdm
@@ -126,26 +122,24 @@
             // 
             // tabClientes
             // 
-            this.tabClientes.Controls.Add(this.txtCpfCli);
-            this.tabClientes.Controls.Add(this.txtTelCli);
-            this.tabClientes.Controls.Add(this.cbxSexoCli);
-            this.tabClientes.Controls.Add(this.btnSalvarFotoCli);
-            this.tabClientes.Controls.Add(this.btnAddFotoCli);
-            this.tabClientes.Controls.Add(this.imgCliente);
+            this.tabClientes.Controls.Add(this.pictureBox1);
             this.tabClientes.Controls.Add(this.txtEmailCli);
             this.tabClientes.Controls.Add(this.txtNomeCli);
             this.tabClientes.Controls.Add(this.label6);
+            this.tabClientes.Controls.Add(this.txtCpfCli);
             this.tabClientes.Controls.Add(this.label5);
+            this.tabClientes.Controls.Add(this.txtSexoCli);
             this.tabClientes.Controls.Add(this.label4);
+            this.tabClientes.Controls.Add(this.txtTelCli);
             this.tabClientes.Controls.Add(this.label3);
             this.tabClientes.Controls.Add(this.label2);
             this.tabClientes.Controls.Add(this.txtCodCli);
             this.tabClientes.Controls.Add(this.label1);
             this.tabClientes.Controls.Add(this.btnVoltarCli);
             this.tabClientes.Controls.Add(this.btnCadCliente);
-            this.tabClientes.Controls.Add(this.btnExcluirCliente);
+            this.tabClientes.Controls.Add(this.button1);
             this.tabClientes.Controls.Add(this.btnEditarCliente);
-            this.tabClientes.Controls.Add(this.grdClientes);
+            this.tabClientes.Controls.Add(this.dataGridView1);
             this.tabClientes.Location = new System.Drawing.Point(4, 26);
             this.tabClientes.Name = "tabClientes";
             this.tabClientes.Padding = new System.Windows.Forms.Padding(3);
@@ -154,64 +148,13 @@
             this.tabClientes.Text = "Clientes";
             this.tabClientes.UseVisualStyleBackColor = true;
             // 
-            // txtCpfCli
+            // pictureBox1
             // 
-            this.txtCpfCli.Location = new System.Drawing.Point(733, 271);
-            this.txtCpfCli.Mask = "###,###,###-##";
-            this.txtCpfCli.Name = "txtCpfCli";
-            this.txtCpfCli.Size = new System.Drawing.Size(108, 25);
-            this.txtCpfCli.TabIndex = 8;
-            // 
-            // txtTelCli
-            // 
-            this.txtTelCli.Location = new System.Drawing.Point(734, 208);
-            this.txtTelCli.Mask = "(##) ####-####";
-            this.txtTelCli.Name = "txtTelCli";
-            this.txtTelCli.Size = new System.Drawing.Size(107, 25);
-            this.txtTelCli.TabIndex = 7;
-            // 
-            // cbxSexoCli
-            // 
-            this.cbxSexoCli.FormattingEnabled = true;
-            this.cbxSexoCli.Items.AddRange(new object[] {
-            "Escolha",
-            "Masculino",
-            "Feminino"});
-            this.cbxSexoCli.Location = new System.Drawing.Point(733, 239);
-            this.cbxSexoCli.Name = "cbxSexoCli";
-            this.cbxSexoCli.Size = new System.Drawing.Size(86, 25);
-            this.cbxSexoCli.TabIndex = 6;
-            // 
-            // btnSalvarFotoCli
-            // 
-            this.btnSalvarFotoCli.Location = new System.Drawing.Point(770, 69);
-            this.btnSalvarFotoCli.Name = "btnSalvarFotoCli";
-            this.btnSalvarFotoCli.Size = new System.Drawing.Size(139, 37);
-            this.btnSalvarFotoCli.TabIndex = 5;
-            this.btnSalvarFotoCli.Text = "Salvar foto";
-            this.btnSalvarFotoCli.UseVisualStyleBackColor = true;
-            this.btnSalvarFotoCli.Click += new System.EventHandler(this.btnSalvarFotoCli_Click);
-            // 
-            // btnAddFotoCli
-            // 
-            this.btnAddFotoCli.Location = new System.Drawing.Point(770, 6);
-            this.btnAddFotoCli.Name = "btnAddFotoCli";
-            this.btnAddFotoCli.Size = new System.Drawing.Size(139, 37);
-            this.btnAddFotoCli.TabIndex = 5;
-            this.btnAddFotoCli.Text = "Adicionar foto...";
-            this.btnAddFotoCli.UseVisualStyleBackColor = true;
-            this.btnAddFotoCli.Click += new System.EventHandler(this.btnAddFotoCli_Click);
-            // 
-            // imgCliente
-            // 
-            this.imgCliente.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.imgCliente.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.imgCliente.Location = new System.Drawing.Point(656, 6);
-            this.imgCliente.Name = "imgCliente";
-            this.imgCliente.Size = new System.Drawing.Size(108, 100);
-            this.imgCliente.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imgCliente.TabIndex = 4;
-            this.imgCliente.TabStop = false;
+            this.pictureBox1.Location = new System.Drawing.Point(656, 6);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(108, 100);
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
             // 
             // txtEmailCli
             // 
@@ -237,6 +180,13 @@
             this.label6.TabIndex = 2;
             this.label6.Text = "Email";
             // 
+            // txtCpfCli
+            // 
+            this.txtCpfCli.Location = new System.Drawing.Point(733, 271);
+            this.txtCpfCli.Name = "txtCpfCli";
+            this.txtCpfCli.Size = new System.Drawing.Size(86, 25);
+            this.txtCpfCli.TabIndex = 3;
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -247,6 +197,13 @@
             this.label5.TabIndex = 2;
             this.label5.Text = "Nome";
             // 
+            // txtSexoCli
+            // 
+            this.txtSexoCli.Location = new System.Drawing.Point(733, 240);
+            this.txtSexoCli.Name = "txtSexoCli";
+            this.txtSexoCli.Size = new System.Drawing.Size(86, 25);
+            this.txtSexoCli.TabIndex = 3;
+            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -256,6 +213,13 @@
             this.label4.Size = new System.Drawing.Size(38, 18);
             this.label4.TabIndex = 2;
             this.label4.Text = "CPF";
+            // 
+            // txtTelCli
+            // 
+            this.txtTelCli.Location = new System.Drawing.Point(733, 208);
+            this.txtTelCli.Name = "txtTelCli";
+            this.txtTelCli.Size = new System.Drawing.Size(86, 25);
+            this.txtTelCli.TabIndex = 3;
             // 
             // label3
             // 
@@ -314,18 +278,16 @@
             this.btnCadCliente.Size = new System.Drawing.Size(80, 74);
             this.btnCadCliente.TabIndex = 1;
             this.btnCadCliente.UseVisualStyleBackColor = true;
-            this.btnCadCliente.Click += new System.EventHandler(this.btnCadCliente_Click);
             // 
-            // btnExcluirCliente
+            // button1
             // 
-            this.btnExcluirCliente.BackgroundImage = global::Projeto_Final.Properties.Resources.icone_exc_cliente;
-            this.btnExcluirCliente.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnExcluirCliente.Location = new System.Drawing.Point(178, 298);
-            this.btnExcluirCliente.Name = "btnExcluirCliente";
-            this.btnExcluirCliente.Size = new System.Drawing.Size(80, 74);
-            this.btnExcluirCliente.TabIndex = 1;
-            this.btnExcluirCliente.UseVisualStyleBackColor = true;
-            this.btnExcluirCliente.Click += new System.EventHandler(this.btnExcluirCliente_Click);
+            this.button1.BackgroundImage = global::Projeto_Final.Properties.Resources.icone_exc_cliente;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Location = new System.Drawing.Point(178, 298);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(80, 74);
+            this.button1.TabIndex = 1;
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // btnEditarCliente
             // 
@@ -336,23 +298,21 @@
             this.btnEditarCliente.Size = new System.Drawing.Size(80, 74);
             this.btnEditarCliente.TabIndex = 1;
             this.btnEditarCliente.UseVisualStyleBackColor = true;
-            this.btnEditarCliente.Click += new System.EventHandler(this.btnEditarCliente_Click);
             // 
-            // grdClientes
+            // dataGridView1
             // 
-            this.grdClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdClientes.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colCodCli,
             this.ColNomeCli,
             this.colTelCli,
             this.colSexo,
             this.colEmailCli,
             this.colCPFCli});
-            this.grdClientes.Location = new System.Drawing.Point(6, 6);
-            this.grdClientes.Name = "grdClientes";
-            this.grdClientes.Size = new System.Drawing.Size(644, 286);
-            this.grdClientes.TabIndex = 0;
-            this.grdClientes.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdClientes_CellClick);
+            this.dataGridView1.Location = new System.Drawing.Point(6, 6);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(644, 286);
+            this.dataGridView1.TabIndex = 0;
             // 
             // colCodCli
             // 
@@ -366,39 +326,37 @@
             // 
             // colTelCli
             // 
-            this.colTelCli.HeaderText = "Sexo";
+            this.colTelCli.HeaderText = "Telefone";
             this.colTelCli.Name = "colTelCli";
             // 
             // colSexo
             // 
-            this.colSexo.HeaderText = "Telefone";
+            this.colSexo.HeaderText = "Sexo";
             this.colSexo.Name = "colSexo";
             // 
             // colEmailCli
             // 
-            this.colEmailCli.HeaderText = "CPF";
+            this.colEmailCli.HeaderText = "Email";
             this.colEmailCli.Name = "colEmailCli";
             // 
             // colCPFCli
             // 
-            this.colCPFCli.HeaderText = "Email";
+            this.colCPFCli.HeaderText = "CPF";
             this.colCPFCli.Name = "colCPFCli";
             // 
             // tabProdutos
             // 
-            this.tabProdutos.Controls.Add(this.btnSalvarFotoPro);
-            this.tabProdutos.Controls.Add(this.btnAddFotoPro);
-            this.tabProdutos.Controls.Add(this.imgProduto);
-            this.tabProdutos.Controls.Add(this.txtPrecoPro);
-            this.tabProdutos.Controls.Add(this.txtDescPro);
+            this.tabProdutos.Controls.Add(this.pictureBox2);
+            this.tabProdutos.Controls.Add(this.textBox1);
+            this.tabProdutos.Controls.Add(this.textBox2);
             this.tabProdutos.Controls.Add(this.label7);
             this.tabProdutos.Controls.Add(this.label8);
-            this.tabProdutos.Controls.Add(this.txtEstPro);
+            this.tabProdutos.Controls.Add(this.textBox4);
             this.tabProdutos.Controls.Add(this.label10);
-            this.tabProdutos.Controls.Add(this.txtCodPro);
+            this.tabProdutos.Controls.Add(this.textBox6);
             this.tabProdutos.Controls.Add(this.label12);
             this.tabProdutos.Controls.Add(this.btnVoltarProd);
-            this.tabProdutos.Controls.Add(this.grdProdutos);
+            this.tabProdutos.Controls.Add(this.dataGridView2);
             this.tabProdutos.Controls.Add(this.btnExcluirProduto);
             this.tabProdutos.Controls.Add(this.btnEditarProduto);
             this.tabProdutos.Controls.Add(this.btnCadProduto);
@@ -411,50 +369,28 @@
             this.tabProdutos.UseVisualStyleBackColor = true;
             this.tabProdutos.Click += new System.EventHandler(this.tabProdutos_Click);
             // 
-            // btnSalvarFotoPro
+            // pictureBox2
             // 
-            this.btnSalvarFotoPro.Location = new System.Drawing.Point(456, 155);
-            this.btnSalvarFotoPro.Name = "btnSalvarFotoPro";
-            this.btnSalvarFotoPro.Size = new System.Drawing.Size(139, 37);
-            this.btnSalvarFotoPro.TabIndex = 20;
-            this.btnSalvarFotoPro.Text = "Salvar foto";
-            this.btnSalvarFotoPro.UseVisualStyleBackColor = true;
-            this.btnSalvarFotoPro.Click += new System.EventHandler(this.btnSalvarFotoPro_Click);
+            this.pictureBox2.Location = new System.Drawing.Point(456, 6);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(108, 100);
+            this.pictureBox2.TabIndex = 18;
+            this.pictureBox2.TabStop = false;
             // 
-            // btnAddFotoPro
+            // textBox1
             // 
-            this.btnAddFotoPro.Location = new System.Drawing.Point(456, 112);
-            this.btnAddFotoPro.Name = "btnAddFotoPro";
-            this.btnAddFotoPro.Size = new System.Drawing.Size(139, 37);
-            this.btnAddFotoPro.TabIndex = 19;
-            this.btnAddFotoPro.Text = "Adicionar foto...";
-            this.btnAddFotoPro.UseVisualStyleBackColor = true;
-            this.btnAddFotoPro.Click += new System.EventHandler(this.btnAddFotoPro_Click);
+            this.textBox1.Location = new System.Drawing.Point(647, 68);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(86, 25);
+            this.textBox1.TabIndex = 12;
             // 
-            // imgProduto
+            // textBox2
             // 
-            this.imgProduto.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.imgProduto.Location = new System.Drawing.Point(456, 6);
-            this.imgProduto.Name = "imgProduto";
-            this.imgProduto.Size = new System.Drawing.Size(108, 100);
-            this.imgProduto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imgProduto.TabIndex = 18;
-            this.imgProduto.TabStop = false;
-            // 
-            // txtPrecoPro
-            // 
-            this.txtPrecoPro.Location = new System.Drawing.Point(647, 68);
-            this.txtPrecoPro.Name = "txtPrecoPro";
-            this.txtPrecoPro.Size = new System.Drawing.Size(86, 25);
-            this.txtPrecoPro.TabIndex = 12;
-            // 
-            // txtDescPro
-            // 
-            this.txtDescPro.Location = new System.Drawing.Point(647, 37);
-            this.txtDescPro.Name = "txtDescPro";
-            this.txtDescPro.Size = new System.Drawing.Size(298, 25);
-            this.txtDescPro.TabIndex = 13;
-            this.txtDescPro.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.textBox2.Location = new System.Drawing.Point(647, 37);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(298, 25);
+            this.textBox2.TabIndex = 13;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label7
             // 
@@ -477,12 +413,12 @@
             this.label8.Text = "Descrição";
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
-            // txtEstPro
+            // textBox4
             // 
-            this.txtEstPro.Location = new System.Drawing.Point(859, 68);
-            this.txtEstPro.Name = "txtEstPro";
-            this.txtEstPro.Size = new System.Drawing.Size(86, 25);
-            this.txtEstPro.TabIndex = 15;
+            this.textBox4.Location = new System.Drawing.Point(859, 68);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(86, 25);
+            this.textBox4.TabIndex = 15;
             // 
             // label10
             // 
@@ -494,13 +430,13 @@
             this.label10.TabIndex = 9;
             this.label10.Text = "Estoque atual";
             // 
-            // txtCodPro
+            // textBox6
             // 
-            this.txtCodPro.Enabled = false;
-            this.txtCodPro.Location = new System.Drawing.Point(647, 6);
-            this.txtCodPro.Name = "txtCodPro";
-            this.txtCodPro.Size = new System.Drawing.Size(42, 25);
-            this.txtCodPro.TabIndex = 17;
+            this.textBox6.Enabled = false;
+            this.textBox6.Location = new System.Drawing.Point(647, 6);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(42, 25);
+            this.textBox6.TabIndex = 17;
             // 
             // label12
             // 
@@ -522,19 +458,18 @@
             this.btnVoltarProd.TabIndex = 2;
             this.btnVoltarProd.UseVisualStyleBackColor = true;
             // 
-            // grdProdutos
+            // dataGridView2
             // 
-            this.grdProdutos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdProdutos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colCodPro,
             this.colDescricaoPro,
             this.colPrecoPro,
             this.colEstAtual});
-            this.grdProdutos.Location = new System.Drawing.Point(6, 6);
-            this.grdProdutos.Name = "grdProdutos";
-            this.grdProdutos.Size = new System.Drawing.Size(444, 286);
-            this.grdProdutos.TabIndex = 1;
-            this.grdProdutos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdProdutos_CellClick);
+            this.dataGridView2.Location = new System.Drawing.Point(6, 6);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.Size = new System.Drawing.Size(444, 286);
+            this.dataGridView2.TabIndex = 1;
             // 
             // colCodPro
             // 
@@ -565,7 +500,6 @@
             this.btnExcluirProduto.Size = new System.Drawing.Size(80, 74);
             this.btnExcluirProduto.TabIndex = 5;
             this.btnExcluirProduto.UseVisualStyleBackColor = true;
-            this.btnExcluirProduto.Click += new System.EventHandler(this.btnExcluirProduto_Click);
             // 
             // btnEditarProduto
             // 
@@ -576,7 +510,6 @@
             this.btnEditarProduto.Size = new System.Drawing.Size(80, 74);
             this.btnEditarProduto.TabIndex = 5;
             this.btnEditarProduto.UseVisualStyleBackColor = true;
-            this.btnEditarProduto.Click += new System.EventHandler(this.btnEditarProduto_Click);
             // 
             // btnCadProduto
             // 
@@ -587,7 +520,6 @@
             this.btnCadProduto.Size = new System.Drawing.Size(80, 74);
             this.btnCadProduto.TabIndex = 5;
             this.btnCadProduto.UseVisualStyleBackColor = true;
-            this.btnCadProduto.Click += new System.EventHandler(this.btnCadProduto_Click);
             // 
             // tabVendas
             // 
@@ -604,7 +536,7 @@
             this.tabVendas.Controls.Add(this.textBox8);
             this.tabVendas.Controls.Add(this.label14);
             this.tabVendas.Controls.Add(this.btnVoltarVen);
-            this.tabVendas.Controls.Add(this.grdVendas);
+            this.tabVendas.Controls.Add(this.dataGridView3);
             this.tabVendas.Controls.Add(this.btnExcluirVenda);
             this.tabVendas.Controls.Add(this.btnEditarVenda);
             this.tabVendas.Controls.Add(this.btnCadVenda);
@@ -737,20 +669,20 @@
             this.btnVoltarVen.TabIndex = 7;
             this.btnVoltarVen.UseVisualStyleBackColor = true;
             // 
-            // grdVendas
+            // dataGridView3
             // 
-            this.grdVendas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdVendas.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colCodVenda,
             this.colProdutoVenda,
             this.colClienteVenda,
             this.colQtdeProdVenda,
             this.colDataVenda,
             this.colTotalVenda});
-            this.grdVendas.Location = new System.Drawing.Point(6, 6);
-            this.grdVendas.Name = "grdVendas";
-            this.grdVendas.Size = new System.Drawing.Size(643, 286);
-            this.grdVendas.TabIndex = 6;
+            this.dataGridView3.Location = new System.Drawing.Point(6, 6);
+            this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.Size = new System.Drawing.Size(643, 286);
+            this.dataGridView3.TabIndex = 6;
             // 
             // colCodVenda
             // 
@@ -820,19 +752,18 @@
             this.Controls.Add(this.tabAdm);
             this.Name = "Tela_Principal";
             this.Text = "Tela Principal";
-            this.Load += new System.EventHandler(this.Tela_Principal_Load);
             this.tabAdm.ResumeLayout(false);
             this.tabClientes.ResumeLayout(false);
             this.tabClientes.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.imgCliente)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdClientes)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.tabProdutos.ResumeLayout(false);
             this.tabProdutos.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.imgProduto)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdProdutos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.tabVendas.ResumeLayout(false);
             this.tabVendas.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.grdVendas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -845,19 +776,25 @@
         private System.Windows.Forms.TabPage tabVendas;
         private System.Windows.Forms.Button btnVoltarCli;
         private System.Windows.Forms.Button btnEditarCliente;
-        private System.Windows.Forms.DataGridView grdClientes;
+        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btnVoltarProd;
         private System.Windows.Forms.Button btnCadProduto;
-        private System.Windows.Forms.DataGridView grdProdutos;
+        private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.Button btnVoltarVen;
         private System.Windows.Forms.Button btnCadVenda;
-        private System.Windows.Forms.DataGridView grdVendas;
+        private System.Windows.Forms.DataGridView dataGridView3;
         private System.Windows.Forms.Button btnCadCliente;
-        private System.Windows.Forms.Button btnExcluirCliente;
+        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnExcluirProduto;
         private System.Windows.Forms.Button btnEditarProduto;
         private System.Windows.Forms.Button btnExcluirVenda;
         private System.Windows.Forms.Button btnEditarVenda;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colCodCli;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColNomeCli;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colTelCli;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colSexo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colEmailCli;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colCPFCli;
         private System.Windows.Forms.DataGridViewTextBoxColumn colCodPro;
         private System.Windows.Forms.DataGridViewTextBoxColumn colDescricaoPro;
         private System.Windows.Forms.DataGridViewTextBoxColumn colPrecoPro;
@@ -868,24 +805,27 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn colQtdeProdVenda;
         private System.Windows.Forms.DataGridViewTextBoxColumn colDataVenda;
         private System.Windows.Forms.DataGridViewTextBoxColumn colTotalVenda;
-        private System.Windows.Forms.PictureBox imgCliente;
+        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox txtEmailCli;
         private System.Windows.Forms.TextBox txtNomeCli;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txtCpfCli;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtSexoCli;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtTelCli;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtCodCli;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox imgProduto;
-        private System.Windows.Forms.TextBox txtPrecoPro;
-        private System.Windows.Forms.TextBox txtDescPro;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox txtEstPro;
+        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox txtCodPro;
+        private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox5;
@@ -899,18 +839,5 @@
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Button btnAddFotoCli;
-        private System.Windows.Forms.Button btnAddFotoPro;
-        private System.Windows.Forms.ComboBox cbxSexoCli;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colCodCli;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColNomeCli;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colTelCli;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colSexo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colEmailCli;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colCPFCli;
-        private System.Windows.Forms.Button btnSalvarFotoCli;
-        private System.Windows.Forms.Button btnSalvarFotoPro;
-        private System.Windows.Forms.MaskedTextBox txtTelCli;
-        private System.Windows.Forms.MaskedTextBox txtCpfCli;
     }
 }
