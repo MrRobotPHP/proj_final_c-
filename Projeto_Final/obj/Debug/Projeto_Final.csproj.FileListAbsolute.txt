@@ -7,5 +7,8 @@ G:\ETEC\DES SOFTWARE\Projeto_Final\Projeto_Final\obj\Debug\Projeto_Final.csproj.
 G:\ETEC\DES SOFTWARE\Projeto_Final\Projeto_Final\obj\Debug\Projeto_Final.exe
 G:\ETEC\DES SOFTWARE\Projeto_Final\Projeto_Final\obj\Debug\Projeto_Final.pdb
 G:\ETEC\DES SOFTWARE\Projeto_Final\Projeto_Final\obj\Debug\Projeto_Final.Tela_Principal.resources
-D:\Documentos\GitHubCSharp\Projeto_Final\obj\Debug\Projeto_Final.exe
-D:\Documentos\GitHubCSharp\Projeto_Final\obj\Debug\Projeto_Final.pdb
+G:\ETEC\DES SOFTWARE\Projeto_Final\Projeto_Final\bin\Debug\MySql.Data.dll
+G:\ETEC\DES SOFTWARE\Projeto_Final\Projeto_Final\bin\Debug\MySql.Data.Entity.dll
+G:\ETEC\DES SOFTWARE\Projeto_Final\Projeto_Final\bin\Debug\MySql.Data.Entity.EF6.dll
+G:\ETEC\DES SOFTWARE\Projeto_Final\Projeto_Final\bin\Debug\MySql.Fabric.Plugin.dll
+G:\ETEC\DES SOFTWARE\Projeto_Final\Projeto_Final\bin\Debug\MySql.Web.dll

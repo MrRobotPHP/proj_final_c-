@@ -1,0 +1,45 @@
+Tabelas:
+
+1 - Clientes
+2 - Produto
+3 - Vendas
+4 - Compras_Produtos
+
+*Tela inicial com splash screen
+
+Campos:
+
+- Código
+- Nome
+- Telefone
+- Sexo
+- Email
+- CPF
+- Foto
+
+Deve-se escolher um produto específico:
+
+- Código
+- Descrição
+- Preço
+- Estoque_Atual
+
+Relacionará com clientes e produtos + códigoVenda _ dataVenda + qtde
+(Poderá ser vendido + de um produto) -> Calcule o valor da compra e dê baixa no estoque.
+
+Somente ADM poderá incluir + quantidades nos produtos.
+
+=============================================================================
+
+Tela Login
+
+User:
+Pass:
+|ENTRAR|
+
+*Splash screen*
+
+Tela inicial
+  ->Clientes
+  ->Produto
+  ->Vendas
