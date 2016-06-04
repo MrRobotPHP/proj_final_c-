@@ -80,6 +80,7 @@
             this.btnLogin.TabIndex = 2;
             this.btnLogin.Text = "Entrar";
             this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // Tela_Login
             // 
@@ -93,6 +94,7 @@
             this.Controls.Add(this.txtUsuario);
             this.Name = "Tela_Login";
             this.Text = "Login";
+            this.Load += new System.EventHandler(this.Tela_Login_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
